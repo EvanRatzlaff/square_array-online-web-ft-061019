@@ -4,6 +4,5 @@ def square_array(array)
   array.each do |a| 
   square << a ** 2
   end
-  binding.pry
- return square 
+ square 
 end
